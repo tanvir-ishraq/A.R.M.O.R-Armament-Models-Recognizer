@@ -4,16 +4,16 @@ layout: page
 ---
 
 # An Armaments Image Recognizer 
-A security measure that can classify comprehensive 22 different types of most common military armaments posing threat to civilians on land.<br/>
+A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.<br/>
 The armament types are following: <br/>
-1.  S19 Msta artillery
-2.  M-21 Grad artillery
-3.  6 Rhino artillery
-4.  109 artillery
-5.  270 MLRS artillery
-6.  merch artillery
-7.  MP-2 vehicle
-8.  TR-80 vehicle
+1.  2S19 Msta artillery
+2.  BM-21 Grad artillery
+3.  G6 Rhino artillery
+4.  M109 artillery
+5.  M270 MLRS artillery
+6.  Smerch artillery
+7.  BMP-2 vehicle
+8.  BTR-80 vehicle
 9.  Humvee vehicle
 10. LAV-25 vehicle
 11. M113 vehicle
