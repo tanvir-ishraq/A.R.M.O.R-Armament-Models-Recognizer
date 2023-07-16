@@ -1,0 +1,9 @@
+remote_theme: daviddarnes/alembic@main
+plugins:
+- jekyll-remote-theme
+
+title: A.R.M.O.R - Armament Models Recognizer for military security
+description: A comprehensive security measure image classification API that classifies (for now) 22 different types of common military armaments around the world posing threat to civilians on land.
+
+author:
+  name: Tanvir Ishraq Khan
