@@ -3,8 +3,8 @@ title: Home
 layout: page
 ---
 
-# A Comprehensive Image Recognizer 
-A security measure that can classify 22 different types of common military armaments posing threat to civilians on land.<br/>
+# Aa Armaments Image Recognizer 
+A security measure that can classify comprehensive 22 different types of most common military armaments posing threat to civilians on land.<br/>
 The armament types are following: <br/>
 1.  S19 Msta artillery
 2.  M-21 Grad artillery
