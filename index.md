@@ -3,9 +3,9 @@ title: Home
 layout: page
 ---
 
-# Image Recognizer 
-Can classify 20 different types of caps <br/>
-The types are following: <br/>
+### A Comprehensive Image Recognizer 
+A security measure that can classify 22 different types of common military armaments posing threat to civilians on land.<br/>
+The armament types are following: <br/>
 1.  S19 Msta artillery
 2.  M-21 Grad artillery
 3.  6 Rhino artillery
@@ -22,9 +22,9 @@ The types are following: <br/>
 14. M1 Abrams tank
 15. T-72 tank
 16. Type 99 tank
-17. Bayraktar TB2 UVAC drone
-18. CH-5 Rainbow UVAC drone
+17. Bayraktar TB2 UCAV drone
+18. CH-5 Rainbow UCAV drone
 19. Hermes 900 drone
 20. Heron TP drone
-21. MQ-9 Reaper UVAC drone
-22. RQ-4 Global Hawk UVAC drone
+21. MQ-9 Reaper UCAV drone
+22. RQ-4 Global Hawk UCAV drone
