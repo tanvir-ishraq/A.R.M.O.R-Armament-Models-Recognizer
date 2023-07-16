@@ -1,6 +1,6 @@
 
 # A.R.M.O.R Project Introduction
-A.R.M.O.R - **Ar**mament **Mo**dels **R**ecognizer for civilian security. <br/>
+<p align="center"> A.R.M.O.R - **Ar**mament **Mo**dels **R**ecognizer for civilian security. </p> <br/> 
 A comprehensive image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
 The model was developed as a security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land. Civilian security. <br/>
 The armament types are following: <br/>
@@ -43,4 +43,4 @@ I deployed the model to HuggingFace Spaces Gradio App. The implementation can be
 <img src = "hf_deployment/ARMOR_gradio_app.png" width="780" height="350">
 
 # API integration with GitHub Pages
-The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `_config.yml` , `index.md` , `ARMOR_classifier.html`
+The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Deployement implementation and other details can be found in `docs` folder.
