@@ -32,10 +32,10 @@ The armament types are following: <br/>
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
 
-P.s. Tank and artilery shocks the opposition while staying robust and afar without taking damage. Unmanned Drones are highly used because they damage while unmanned replacing combat planes. Other vehicle used to support infantry is also listed here. All of these becomes threat to civilians.  </br>
+P.s. Tank and artilery shocks the opposition while staying robust and afar without taking damage. Unmanned Drones are highly used because they damage while unmanned replacing combat planes. Other vehicle used to support infantry is also listed here. All of these becomes threat to civilians. Covers mass amount of armaments of  countries and conflicts worldwide such as Yemen, Syria, United States, iraq, iran, Ukraine, india, germany, china, russia, turkey.   </br>
 
 # Dataset Preparation
-**Research:** Existing military datasets are insufficient for civilian security. We aim to update them for our modern goals. I did research on which categories poses most threat to civilians being on land. Did deep research on most common armaments on each categories. researched most produced available armaments in modern times. researched most used in military operation and wars in modern times. researched most used armaments. <br/><br/>
+**Research:** Existing military datasets are not tailored towards civilian security focused at all. They also doesn't widely armaments and information regarding modern times and conflicts.  We aim to update them for our modern goals. I did research on which categories poses most threat to civilians being on land. Did deep research on most common armaments on each categories. researched most produced available armaments in modern times. researched most used in military operation and wars in modern times. researched most used armaments. <br/><br/>
 **Data Collection:** Downloaded from DuckDuckGo using term name. A grand total of ~5500 images finally consisted our dataset after deeply cleaning dataset. (with more data and categories to be added more later project version) <br/><br/>
 **DataLoader:** Used fastai DataBlock API to set up the DataLoader. Proper dataset split percentage was followed. Proper batch_size was set to utilize power of GPU. <br/>
 **Data Augmentation:** fastai provides default data augmentation which operates in GPU. <br/>
