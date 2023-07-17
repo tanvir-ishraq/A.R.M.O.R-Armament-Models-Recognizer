@@ -1,9 +1,13 @@
 
 # Project A.R.M.O.R Introduction
-A.R.M.O.R - <strong>Ar</strong>mament <strong>Mo</strong>dels <strong>R</strong>ecognizer for civilian security. 
+"A.R.M.O.R - <strong>Ar</strong>mament <strong>Mo</strong>dels <strong>R</strong>ecognizer for civilian security."
 <br>
 A comprehensive image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
-The model was developed as a security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land. Civilian security. <br/>
+The model was developed as a security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land and Civilian security. <br/>
+* I carried out comprehensive research on the most typical armaments category.  <br/>
+* I researched the most produced and available armaments in modern times. <br/>
+* I researched the most used armaments in military activities and conflicts in modern times. <br/>
+* I researched the most accessible and obtainable armaments in modern times.  <br/> <br/>
 The armament types are following: <br/>
 1.  2S19 Msta artillery
 2.  BM-21 Grad artillery
