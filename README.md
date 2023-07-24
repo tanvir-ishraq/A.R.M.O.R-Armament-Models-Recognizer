@@ -43,7 +43,7 @@ P.s. Tank and artilery shocks the opposition while staying robust and afar witho
 Details can be found in `data augmentation` section in `notebooks/ARMOR_classfier_full_process.ipynb`
 
 # Training and Data Cleaning
-**Training overview:** The powerful resnet152 model was chosen as starting point. Fine-tuned a resnet152 model for 20 epochs and achieved upto ~97% accuracy. During this 20 epochs period, I obeserved train loss and validation loss with attention to ensure overfit doesn't occur. <br/> <br/>
+**Training overview:** The powerful ResNet-152 model was chosen as starting point. I fine-tuned the ResNet-152 model for 20 epochs and achieved upto ~97% accuracy. During this 20 epochs period, I obeserved train loss and validation loss with attention to ensure overfit doesn't occur. <br/> <br/>
 **Data Cleaning:** This was the most time-consuming part. I dealt with a lot of noisy data/miscategorization from the browser fetched images. There were also images that interfered. And some images were contaminated. First I did an universal cleaning manually. Then I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or finetuning, except for the last time which was the final iteration of the model. <br/>
 
 # Model Deployment
