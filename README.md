@@ -2,7 +2,8 @@
 # Project A.R.M.O.R Introduction
 "A.R.M.O.R - <strong>Ar</strong>mament <strong>Mo</strong>dels <strong>R</strong>ecognizer for civilian security."
 <br>
-A comprehensive image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
+A comprehensive image classification model from data collection, dataset cleaning, model training, full deployment and API integration. <br/>
+<img src = "hf_deployment/ARMOR_gradio_app.png" width="830" > <br>
 The model was developed as a security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land and Civilian security. <br/>
 * I carried out comprehensive research on the most typical armaments category.  <br/>
 * I researched the most produced and available armaments in modern times. <br/>
