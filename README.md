@@ -47,7 +47,7 @@ Details can be found in `data augmentation` section in `notebooks/ARMOR_classfie
 <img src = "\github_images/final_model_train_sample_preview.png"> 
 <br/>
 **Data Cleaning:** This was the most time-consuming part. I dealt with a lot of noisy data/miscategorization from the browser fetched images. There were also images that interfered. And some images were contaminated. First I did an universal cleaning manually. Then I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or finetuning, except for the last time which was the final iteration of the model. <br/>
-<img src = "\github_images/confusion matrix_sample_preview.png" width="780" height="350"> 
+<img src = "\github_images/confusion matrix_sample_preview.png" width="830" > 
 
 # Model Deployment
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `hf_deployment` folder and [online here](https://huggingface.co/spaces/tanvir-ishraq/ARMOR-Armament-Models-Recognizer). <br/>
