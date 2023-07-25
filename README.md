@@ -56,7 +56,7 @@ Details can be found in `data augmentation` section in `notebooks/ARMOR_classfie
 
 # Model Deployment
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `hf_deployment` folder and [online here](https://huggingface.co/spaces/tanvir-ishraq/ARMOR-Armament-Models-Recognizer). <br/>
-<img src = "hf_deployment/ARMOR_gradio_app.png" width="780" height="350">
+<img src = "hf_deployment/ARMOR_gradio_app.png" width="830" >
 
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Deployement implementation and other details can be found in `docs` folder.
