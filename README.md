@@ -33,7 +33,7 @@ The armament types are following: <br/>
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
 
-P.s. Tank and artilery shocks the opposition while staying robust and afar without taking damage. Unmanned Drones are highly used because they damage while unmanned replacing combat planes. Other vehicle used to support infantry is also listed here. All of these becomes threat to civilians. Covers mass amount of armaments of  countries and conflicts worldwide such as Yemen, Syria, United States, iraq, iran, Ukraine, india, germany, china, russia, turkey.   </br>
+P.s. Tank and artillery shocks the opposition while staying robust and afar without taking damage. Unmanned Drones are highly used because they damage while unmanned replacing combat planes. Other vehicle used to support infantry is also listed here. All of these becomes threat to civilians. Covers mass amount of armaments of  countries and conflicts worldwide such as Yemen, Syria, United States, Iraq, Iran, Ukraine, India, Germany, China, Russia, Turkey.   </br>
 
 # Dataset Preparation
 **Research:** Existing military datasets are not tailored towards civilian security focused at all. They also doesn't widely armaments and information regarding modern times and conflicts.  We aim to update them for our modern goals. I did research on which categories poses most threat to civilians being on land. Did deep research on most common armaments on each categories. researched most produced available armaments in modern times. researched most used in military operation and wars in modern times. researched most used armaments. <br/><br/>
@@ -43,7 +43,7 @@ P.s. Tank and artilery shocks the opposition while staying robust and afar witho
 Details can be found in `data augmentation` section in `notebooks/ARMOR_classfier_full_process.ipynb`
 
 # Training and Data Cleaning
-**Training overview:** The powerful ResNet-152 model was chosen as starting point. I fine-tuned the ResNet-152 model for 20 epochs and achieved upto ~97% accuracy. During this 20 epochs period, I obeserved train loss and validation loss with attention to ensure overfit doesn't occur. <br/> 
+**Training overview:** The powerful ResNet-152 model was chosen as starting point. I fine-tuned the ResNet-152 model for 20 epochs and achieved up to ~97% accuracy. During this 20 epochs period, I observed train loss and validation loss with attention to ensure overfit doesn't occur. <br/> 
 <p align="center">
   <img src = "\github_images/final_model_train_sample_preview.png"> 
 </p>
@@ -59,4 +59,4 @@ I deployed the model to HuggingFace Spaces Gradio App. The implementation can be
 <img src = "hf_deployment/ARMOR_gradio_app.png" width="830" >
 
 # API integration with GitHub Pages
-The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Deployement implementation and other details can be found in `docs` folder.
+The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Deployment implementation and other details can be found in `docs` folder.
