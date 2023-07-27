@@ -33,7 +33,7 @@ The armament types are following: <br/>
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
 
-P.s. Tank and artillery shocks the opposition while staying robust and afar without taking damage. Unmanned Drones are highly used because they damage while unmanned replacing combat planes. Other vehicle used to support infantry is also listed here. All of these becomes threat to civilians. Covers mass amount of armaments of  countries and conflicts worldwide such as Yemen, Syria, United States, Iraq, Iran, Ukraine, India, Germany, China, Russia, Turkey.   </br>
+Tank and artillery shock the opposition while staying robust and afar without taking damage. Unmanned drones are highly used because they can inflict damage without risking pilots, replacing combat planes. Other vehicles are used to support actual infantry engagement. All of these pose a threat to civilians. This covers mass amount of armaments of countries and conflicts worldwide such as Yemen, Syria, United States, Iraq, Iran, Ukraine, India, Germany, China, Russia, Turkey.   </br>
 
 # Dataset Preparation
 **Research:** Existing military datasets are not tailored towards civilian security focused at all. They also doesn't widely armaments and information regarding modern times and conflicts.  We aim to update them for our modern goals. I did research on which categories poses most threat to civilians being on land. Did deep research on most common armaments on each categories. researched most produced available armaments in modern times. researched most used in military operation and wars in modern times. researched most used armaments. <br/><br/>
