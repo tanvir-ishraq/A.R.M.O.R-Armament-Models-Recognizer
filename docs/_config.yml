@@ -1,7 +1,7 @@
-remote_theme: pages-themes/slate@v0.2.0
-plugins:
-- jekyll-remote-theme
-#theme: slate
+#remote_theme: pages-themes/slate@v0.2.0
+#plugins:
+#- jekyll-remote-theme
+theme: jekyll-theme-slate
 
 title: A.R.M.O.R # also site copyright appearing on footer
 description: A comprehensive security measure image classification API that classifies (for now) 22 different types of common military armaments around the world posing threat to civilians on land.
