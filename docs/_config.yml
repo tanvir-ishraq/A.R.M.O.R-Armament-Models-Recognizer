@@ -1,4 +1,4 @@
-remote_theme: daviddarnes/alembic@main
+remote_theme: pages-themes/midnight
 plugins:
 - jekyll-remote-theme
 
