@@ -1,4 +1,4 @@
-remote_theme: pages-themes/slate@@main
+remote_theme: pages-themes/slate@main
 plugins:
 - jekyll-remote-theme 
 
