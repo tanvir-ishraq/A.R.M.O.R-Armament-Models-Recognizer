@@ -3,7 +3,7 @@
 "A.R.M.O.R - <strong>Ar</strong>mament <strong>Mo</strong>dels <strong>R</strong>ecognizer for civilian security."
 <br>
 A comprehensive image classification model from data collection, dataset cleaning, model training, full deployment and API integration. <br/>
-<img src = "hf_deployment/ARMOR_gradio_app.png" width="830" > <br>
+<!--- <img src = "hf_deployment/ARMOR_gradio_app.png" width="830" > <br> -->
 The model was developed as a security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land and overall civilian security. <br/>
 * I carried out comprehensive research on the most typical armaments category.  <br/>
 * I researched the most produced and available armaments in modern times. <br/>
@@ -44,19 +44,19 @@ Details can be found in `data augmentation` section in `notebooks/ARMOR_classfie
 
 # Training and Data Cleaning
 **Training overview:** The powerful ResNet-152 model was chosen as starting point. I fine-tuned the ResNet-152 model for 20 epochs and achieved up to ~97% accuracy. During this 20 epochs period, I observed train loss and validation loss with attention to ensure overfit doesn't occur. <br/> 
-<p align="center">
+<!--- <p align="center">
   <img src = "\github_images/final_model_train_sample_preview.png"> 
-</p>
+</p> -->
 
 **Data Cleaning:** This was the most time-consuming part. I dealt with a lot of noisy data/miscategorization from the browser fetched images. There were also images that interfered. And some images were contaminated. First I did an universal cleaning manually. Then I cleaned and updated data using fastai `ImageClassifierCleaner`. I cleaned the data each time after training or finetuning, except for the last time which was the final iteration of the model. <br/>
-<p align="center">
+<!--- <p align="center">
   <img src = "\github_images/confusion matrix_sample_preview.png" width="780" > 
-</p>
+</p> -->
 
 
 # Model Deployment
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `hf_deployment` folder and [online here](https://huggingface.co/spaces/tanvir-ishraq/ARMOR-Armament-Models-Recognizer). <br/>
-<img src = "hf_deployment/ARMOR_gradio_app.png" width="830" >
+<!--- <img src = "hf_deployment/ARMOR_gradio_app.png" width="830" >  -->
 
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Deployment implementation and other details can be found in `docs` folder.
