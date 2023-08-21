@@ -10,6 +10,7 @@ remote_theme: pages-themes/slate #daviddarnes/alembic@main
 # merlot logo
 
 title: A.R.M.O.R - Armament Models Recognizer # also site copyright appearing on footer
+# appears in header:
 description: A comprehensive security measure image classification API that classifies (for now) 22 different types of common military armaments around the world posing threat to civilians on land.
 
 author:
