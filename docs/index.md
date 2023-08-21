@@ -4,7 +4,7 @@ title: Home
 ---
 
 <!-- ARMOR classifier API section -->
-<p> Welcome. Please wait a few moments after image upload for prediction result. Thank you for your patience.✨</p>
+<p> Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
 <div style="display: flex; justify-content: center">
     <input id="photo" type="file">
@@ -33,7 +33,7 @@ title: Home
 <!-- Description section -->
 <a id="forkme_banner" href="#">ARMOR Classifier</a>
 <h2> A Comprehensive Armaments Image Recognizer </h2>
-<h3> A.R.M.O.R - Armament Models Recognizer for civilian security </h3>
+<h3 style="text-align: center"> A.R.M.O.R - Armament Models Recognizer for civilian security </h3>
 A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.<br/>
 The armament types are following: <br/>
 1.  2S19 Msta artillery
