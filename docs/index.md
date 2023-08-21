@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: page
+<!-- layout: page -->
 ---
 
 ### A Comprehensive Armaments Image Recognizer 
