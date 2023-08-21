@@ -2,7 +2,7 @@
 title: Home
 <!-- layout: page -->
 ---
-
+<a id="forkme_banner" href="https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/ARMOR_classifier.html">ARMOR Classifier</a>
 ### A Comprehensive Armaments Image Recognizer 
 A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.<br/>
 The armament types are following: <br/>
