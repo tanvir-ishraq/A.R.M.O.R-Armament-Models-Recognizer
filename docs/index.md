@@ -2,6 +2,8 @@
 title: Home
 <!-- layout: page -->
 ---
+
+<!-- ARMOR classifier API section -->
 <p> Welcome. Please wait a few moments after image upload for prediction result. Thank you for your patience.✨</p>
 <input id="photo" type="file">
 <div id="results" style="text-align: center"></div>
@@ -24,6 +26,7 @@ title: Home
 </script>
 
 <br>
+<!-- Description section -->
 <a id="forkme_banner" href="https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/ARMOR_classifier.html">ARMOR Classifier</a>
 ### A Comprehensive Armaments Image Recognizer 
 A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.<br/>
