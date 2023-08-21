@@ -5,7 +5,7 @@ title: Home
 
 <!-- ARMOR classifier API section -->
 <p> Welcome. Please wait a few moments after image upload for prediction result. Thank you for your patience.✨</p>
-<input id="photo" type="file">
+<input id="photo" type="file" style="display: flex; justify-content: center">
 <div id="results" style="text-align: center"></div>
 <script>
     async function loaded(reader) {   
