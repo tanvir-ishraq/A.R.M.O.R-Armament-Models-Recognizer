@@ -31,8 +31,9 @@ title: Home
 
 <br>
 <!-- Description section -->
-<a id="forkme_banner" href="https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/ARMOR_classifier.html">ARMOR Classifier</a>
-### A Comprehensive Armaments Image Recognizer 
+<a id="forkme_banner" href="#">ARMOR Classifier</a>
+<h2> A Comprehensive Armaments Image Recognizer </h2>
+<h3> A.R.M.O.R - Armament Models Recognizer for civilian security </h3>
 A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.<br/>
 The armament types are following: <br/>
 1.  2S19 Msta artillery
