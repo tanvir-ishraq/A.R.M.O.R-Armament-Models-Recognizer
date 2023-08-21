@@ -2,6 +2,28 @@
 title: Home
 <!-- layout: page -->
 ---
+<p> Welcome. Please wait a few moments after image upload for prediction result. Thank you for your patience.✨</p>
+<input id="photo" type="file">
+<div id="results"></div>
+
+<script>
+    async function loaded(reader) {   
+    const response = await fetch("https://tanvir-ishraq-armor-armament-models-recognizer.hf.space/run/predict", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({data: [reader.result]})});
+    const json = await response.json();
+    const label = json['data'][0]['label'];
+    results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p>${label}</p>`; //results
+    }
+
+    function read() {
+        const reader = new FileReader();
+        reader.addEventListener('load', () => loaded(reader))
+        reader.readAsDataURL(photo.files[0]);
+    }
+    photo.addEventListener('input', read);
+</script>
+
 <a id="forkme_banner" href="https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/ARMOR_classifier.html">ARMOR Classifier</a>
 ### A Comprehensive Armaments Image Recognizer 
 A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.<br/>
