@@ -1,6 +1,7 @@
-remote_theme: pages-themes/merlot #pages-themes/merlot@main #pages-themes/slate@main #remote_theme: owner/name
 plugins:
 - jekyll-remote-theme 
+remote_theme: pages-themes/merlot #pages-themes/merlot@main #pages-themes/slate@main #remote_theme: owner/name
+
 #You don't need to specify the branch name (@main) or the zip file extension. 
 #GitHub Pages will automatically fetch the latest version of the theme from the default branch.
 
