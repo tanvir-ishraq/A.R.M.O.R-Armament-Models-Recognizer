@@ -4,7 +4,7 @@ title: Home
 ---
 <p> Welcome. Please wait a few moments after image upload for prediction result. Thank you for your patience.✨</p>
 <input id="photo" type="file">
-<div id="results"></div>
+<div id="results" style="text-align: center"></div>
 <script>
     async function loaded(reader) {   
     const response = await fetch("https://tanvir-ishraq-armor-armament-models-recognizer.hf.space/run/predict", {
@@ -12,7 +12,7 @@ title: Home
         body: JSON.stringify({data: [reader.result]})});
     const json = await response.json();
     const label = json['data'][0]['label'];
-    results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p>${label}</p>`; //results
+    results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p><b>Result: ${label}</b></p>`; //results
     }
 
     function read() {
