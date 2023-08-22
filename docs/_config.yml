@@ -1,15 +1,14 @@
 plugins:
 - jekyll-remote-theme
-#remote_theme: owner/name
+# remote_theme: owner/name
 remote_theme: pages-themes/slate #daviddarnes/alembic@main
-#You don't need to specify the branch name (@main) or the zip file extension. 
-#GitHub Pages will automatically fetch the latest version of the theme from the default branch.
+# You don't need to specify the branch name (@main) or the zip file extension. 
+# GitHub Pages will automatically fetch the latest version of the theme from the default branch.
 
 # to do: slate fontsize
-#options:
-# merlot logo
 
 title: A.R.M.O.R - Armament Models Recognizer # also site copyright appearing on footer
+
 # appears in header:
 description: A comprehensive security measure image classification API that classifies (for now) 22 different types of common military armaments around the world posing threat to civilians on land.
 
