@@ -5,10 +5,10 @@
 A comprehensive image classification model from data collection, dataset cleaning, model training, full deployment and API integration. <br/>
  <img src = "hf_deployment/ARMOR_gradio_app.png" width="830" > <br> 
 The model was developed as a security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land and overall civilian security. <br/>
-* I carried out comprehensive research on the most typical armaments category.  <br/>
+* I carried out All-encompassing research on the most typical armaments category.  <br/>
 * I researched the most produced and available armaments in modern times. <br/>
 * I researched the most used armaments in military activities and conflicts in modern times. <br/>
-* I researched the most accessible and obtainable armaments in modern times.  <br/> <br/>
+* I researched the easily accessible and obtainable armaments in modern times.  <br/> <br/>
 The armament types are following: <br/>
 1.  2S19 Msta artillery
 2.  BM-21 Grad artillery
