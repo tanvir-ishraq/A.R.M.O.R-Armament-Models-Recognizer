@@ -1,5 +1,5 @@
 
-# Project A.R.M.O.R Introduction
+# Project A.R.M.O.R Problem Statement
 "A.R.M.O.R - <strong>Ar</strong>mament <strong>Mo</strong>dels <strong>R</strong>ecognizer for civilian security."
 <br>
 A comprehensive image classification model from data collection, dataset cleaning, model training, full deployment and API integration. <br/>
