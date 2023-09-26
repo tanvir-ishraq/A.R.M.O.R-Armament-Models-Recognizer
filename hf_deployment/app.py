@@ -50,7 +50,7 @@ examples = [
     'test_images/unknown_02.jpg',
     'test_images/unknown_03.webp',
     'test_images/unknown_04.jpg'
-    ]
+]
 
 #interface with i/o :
 iface = gr.Interface(fn=recognize_image, inputs=image, outputs=label, examples=examples)
