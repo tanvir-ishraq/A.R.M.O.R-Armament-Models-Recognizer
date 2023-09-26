@@ -37,7 +37,7 @@ def recognize_image(image):
   pred, idx, probs = model.predict(image) 
   #predict() returns category, it's index, probablity of all catg.
   
-    return dict(zip(cap_labels, map(float, probs))) # assigned as gr.outputs
+  return dict(zip(cap_labels, map(float, probs))) # assigned as gr.outputs
   # since, gr.Interface(fn=recognize_image) so, whatever returned by recognize_image() become the output of gr.interface which can be accessed through gr.outputs
 
 # set gradio input and output format :
