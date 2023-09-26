@@ -38,7 +38,7 @@ def recognize_image(image):
   # print(pred)
   return dict(zip(cap_labels, map(float, probs))) # for all categories
 
-#input output gradio formatting set:
+# set gradio input and output formatting :
 image = gr.inputs.Image(shape=(192,192))
 label = gr.outputs.Label(num_top_classes=5) 
 
