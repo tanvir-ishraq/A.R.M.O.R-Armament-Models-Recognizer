@@ -40,7 +40,7 @@ def recognize_image(image):
   #returns data in dictionary format {('A', 0.0012), ('B', 0.003), ('C', 0.9958)}
   return dict(zip(cap_labels, map(float, probs))) 
   # return data will be automatically assigned as gr.outputs
-  # since, gr.Interface(fn=recognize_image) so, whatever returned by recognize_image() become the output of gr.interface which can be accessed through gr.outputs
+  # since, gr.Interface(fn=recognize_image) so, result of recognize_image() be output for gr.interface, which can be accessed through gr.outputs
 
 # set gradio input and output format :
 image = gr.inputs.Image(shape=(192,192))
