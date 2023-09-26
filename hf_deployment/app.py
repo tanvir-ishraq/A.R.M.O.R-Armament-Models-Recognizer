@@ -1,7 +1,7 @@
 from fastai.vision.all import *
 import gradio as gr
 
-#to use load_learner() in windows: #get updated code from discord group
+#to use load_learner() in windows: 
 # import pathlib
 # temp = pathlib.PosixPath
 # pathlib.PosixPath = pathlib.WindowsPath
@@ -35,11 +35,10 @@ model = load_learner('models/ARMOR-classifier-v4.pkl')
 
 def recognize_image(image):
   pred, idx, probs = model.predict(image) #predict() returns category, it's index, probablity of all catg.
-  # print(pred)
-  return dict(zip(cap_labels, map(float, probs))) # for all categories
-  # since, gr.Interface(fn=recognize_image) so, whatever returned by recognize_image() function become the output of gr interface which can be accessed through gr.outputs
+  return dict(zip(cap_labels, map(float, probs))) # assigned as gr.outputs
+  # since, gr.Interface(fn=recognize_image) so, whatever returned by recognize_image() become the output of gr.interface which can be accessed through gr.outputs
 
-# set gradio input and output formatting :
+# set gradio input and output format :
 image = gr.inputs.Image(shape=(192,192))
 label = gr.outputs.Label(num_top_classes=5) 
 
@@ -51,6 +50,6 @@ examples = [
     'test_images/unknown_04.jpg'
     ]
 
-#interface with i/o
+#interface with i/o :
 iface = gr.Interface(fn=recognize_image, inputs=image, outputs=label, examples=examples)
 iface.launch(inline=False) # share=True for colab
