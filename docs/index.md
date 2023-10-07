@@ -2,6 +2,7 @@
 title: Home
 <!-- layout: page -->
 ---
+<link rel="stylesheet" href="/A.R.M.O.R-Armament-Models-Recognizer/docs/css/style.css">
 
 <!-- ARMOR classifier API section -->
 <a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
