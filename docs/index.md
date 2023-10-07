@@ -35,9 +35,8 @@ title: Home
 <!-- Description section -->
 <h2> A Comprehensive Armaments Image Recognizer </h2>
 <h3 style="text-align: center"> Armament Models Recognizer for Civilian Security </h3>
-<p style="font-size:17.5px;"> A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.</p> 
-<br/>
-<p style="font-size:17.5px;"> The armament types are following: </p> <br/>
+<p style="font-size:17.5px;"> A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land. </p> 
+<p style="font-size:17.5px;"> The armament types are following: </p>
 1.  2S19 Msta artillery
 2.  BM-21 Grad artillery
 3.  G6 Rhino artillery
