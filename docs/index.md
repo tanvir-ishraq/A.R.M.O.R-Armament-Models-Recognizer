@@ -4,15 +4,7 @@ title: Home
 ---
 <link rel="stylesheet" href="/A.R.M.O.R-Armament-Models-Recognizer/docs/css/style.css">
 
-<!-- ARMOR classifier API section -->
-<a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
-<p> Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
-
-<div style="display: flex; justify-content: center">
-    <input id="photo" type="file">
-</div>
-<div id="results" style="text-align: center"></div>
-
+<!-- ARMOR classifier API start section -->
 <script>
     async function loaded(reader) {   
     const response = await fetch("https://tanvir-ishraq-armor-armament-models-recognizer.hf.space/run/predict", {
@@ -31,11 +23,21 @@ title: Home
     photo.addEventListener('input', read);
 </script>
 
+
+<a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
+<p> Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
+
+<div style="display: flex; justify-content: center">
+    <input id="photo" type="file">
+</div>
+<div id="results" style="text-align: center"></div>
+
 <br>
 <!-- Description section -->
 <h2> A Comprehensive Armaments Image Recognizer </h2>
 <h3 style="text-align: center"> Armament Models Recognizer for Civilian Security </h3>
-A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.<br/>
+<p> </p>A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land.</p> 
+<br/>
 The armament types are following: <br/>
 1.  2S19 Msta artillery
 2.  BM-21 Grad artillery
