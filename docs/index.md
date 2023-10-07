@@ -4,7 +4,7 @@ title: Home
 ---
 <link rel="stylesheet" href="/A.R.M.O.R-Armament-Models-Recognizer/docs/css/style.css">
 
-<!-- ARMOR classifier API start section -->
+<!-- ARMOR classifier API section -->
 <script>
     async function loaded(reader) {   
     const response = await fetch("https://tanvir-ishraq-armor-armament-models-recognizer.hf.space/run/predict", {
@@ -23,7 +23,7 @@ title: Home
     photo.addEventListener('input', read);
 </script>
 
-
+<body>
 <a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
 <p> Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
@@ -61,3 +61,4 @@ The armament types are following: <br/>
 20. Heron TP drone
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
+</body>
