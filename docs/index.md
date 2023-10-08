@@ -23,11 +23,11 @@ title: Home
     photo.addEventListener('input', read);
 </script>
 
-<p id="forkme_banner" href="#">A.R.M.O.R Classifier</p>
+<a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
 <div style="display: flex; justify-content: center">
-    <input id="photo" type="file" style="font-size:18px; height:50px">
+    <input id="photo" type="file" style="font-size:18px; height:43px">
 </div>
 <div id="results" style="text-align: center"></div>
 <br>
