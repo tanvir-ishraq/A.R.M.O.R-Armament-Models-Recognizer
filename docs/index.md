@@ -26,7 +26,7 @@ title: Home
 <p id="forkme_banner" href="#">A.R.M.O.R Classifier</p>
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
-<div style="font-size:18px;" display: flex; justify-content: center">
+<div style="font-size:18px; display: flex; justify-content: center">
     <input id="photo" type="file">
 </div>
 <div id="results" style="text-align: center"></div>
