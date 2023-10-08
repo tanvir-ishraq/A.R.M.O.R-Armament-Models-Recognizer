@@ -27,7 +27,7 @@ title: Home
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
 <div style="display: flex; justify-content: center">
-    <input id="photo" type="file" style="font-size:17px; height:43px">
+    <input id="photo" type="file" style="font-size:17.5px; height:44px">
 </div>
 <div id="results" style="text-align: center"></div>
 <br>
