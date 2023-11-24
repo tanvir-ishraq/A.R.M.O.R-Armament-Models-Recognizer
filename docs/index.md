@@ -3,7 +3,7 @@ title: Home
 <!-- layout: page -->
 ---
 
-<!-- Machine learning user interface -->
+<!-- Frontend Machine learning user interface. Data are handled by API-->
 <a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
@@ -41,7 +41,7 @@ The armament types are following: </p>
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
 
-<!-- ARMOR classifier API & output -->
+<!-- ARMOR classifier API & output messaging-->
 <script>
     async function loaded(reader) {   
         const response = await fetch("https://tanvir-ishraq-armor-armament-models-recognizer.hf.space/run/predict", {
@@ -50,10 +50,12 @@ The armament types are following: </p>
             } 
         ); 
         const json = await response.json();
+        console.log(json);
+        console.log(json['data'][0]);
         const label = json['data'][0]['label'];
-        const probability = json['data'][0]['score'] * 100;
+        const probability = json['data'][0]['score'] ;
         results.innerHTML = `<img src = "${reader.result}" width="500"> 
-                            <p> <strong>Result: ${label} (${probability}% probability)</strong> </p>`; //results
+                            <p> <strong>Result: ${label} (${probability}% prediction)</strong> </p>`; //results
     }
 
     function read() {
