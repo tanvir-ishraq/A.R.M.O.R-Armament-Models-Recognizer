@@ -54,7 +54,7 @@ The armament types are following: </p>
         let probability = json['data'][0]['confidences'][0]['confidence'] * 100;
         probability = Math.ceil(probability);
         results.innerHTML = `<img src = "${reader.result}" width="500"> 
-                            <p> <strong> Result: ${label} (${probability}% similar pattern) </strong> </p> ` ;  
+                            <p> <strong> Result: ${label} (${probability}% pattern) </strong> </p> ` ;  
     }
 
     function read() {
