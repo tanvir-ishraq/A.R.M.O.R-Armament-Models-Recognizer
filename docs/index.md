@@ -2,7 +2,7 @@
 title: Home
 <!-- layout: page -->
 ---
-
+ 
 <!-- Frontend Machine learning user interface. Data are handled by API-->
 <a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
