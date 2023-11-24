@@ -10,7 +10,7 @@ title: Home
 <div style="display: flex; justify-content: center">
     <input id="photo" type="file" style="font-size:17.5px; height:44px">
 </div>
-<div id="results" style="text-align: center; margin: 10px;"></div>
+<div id="results" style="text-align: center; margin-top: 15px;"> </div>
 <br>
 
 <!-- Description section -->
