@@ -53,7 +53,7 @@ The armament types are following: </p>
         console.log(json);
         console.log(json['data'][0]);
         const label = json['data'][0]['label'];
-        const probability = json['data'][0]['confidences'][0]['confidence] ;
+        const probability = json['data'][0]['confidences'][0]['confidence'] ;
         results.innerHTML = `<img src = "${reader.result}" width="500"> 
                             <h4> Best Match: ${label} (${probability}% prediction) </h4>
                             <p> <strong>Result: ${label} (${probability}% pattern match)</strong> </p>`; //results
