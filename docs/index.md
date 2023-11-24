@@ -3,7 +3,7 @@ title: Home
 <!-- layout: page -->
 ---
  
-<!-- Frontend Machine learning user interface. Data are handled by API-->
+<!-- Frontend prediction user interface. Data are handled by API-->
 <a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
@@ -14,7 +14,7 @@ title: Home
 <br>
 
 <!-- Description section -->
-<h2 style="margin: 20px;"> A Comprehensive Armaments Image Recognizer </h2>
+<h2 style="margin-top: 20px;"> A Comprehensive Armaments Image Recognizer </h2>
 <h3 style="text-align: center"> Armament Models Recognizer for Civilian Security </h3>
 <p style="font-size:17px;"> A security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land. <br> 
 The armament types are following: </p>
