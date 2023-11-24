@@ -53,7 +53,7 @@ The armament types are following: </p>
         const label = json['data'][0]['label'];
         const probability = json['data'][0]['score'] * 100;
         results.innerHTML = `<img src = "${reader.result}" width="500"> 
-                            <p> <strong>Result: ${label} (${score}%)</strong> </p>`; //results
+                            <p> <strong>Result: ${label} (${probability}% probability)</strong> </p>`; //results
     }
 
     function read() {
