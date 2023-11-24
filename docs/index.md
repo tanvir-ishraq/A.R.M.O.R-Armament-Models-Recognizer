@@ -2,8 +2,8 @@
 title: Home
 <!-- layout: page -->
 ---
-<!-- <link rel="stylesheet" href="/A.R.M.O.R-Armament-Models-Recognizer/docs/css/style.css"> -->
 
+<!-- Machine learning user interface -->
 <a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
@@ -41,16 +41,19 @@ The armament types are following: </p>
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
 
-<!-- ARMOR classifier API section -->
+<!-- ARMOR classifier API & output -->
 <script>
     async function loaded(reader) {   
-    const response = await fetch("https://tanvir-ishraq-armor-armament-models-recognizer.hf.space/run/predict", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({data: [reader.result]})});
-    const json = await response.json();
-    const label = json['data'][0]['label'];
-    //results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p><b>API call testing complete</b></p>`;
-    results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p><b>Result: ${label}</b></p>`; //results
+        const response = await fetch("https://tanvir-ishraq-armor-armament-models-recognizer.hf.space/run/predict", {
+                method: "POST", headers: { "Content-Type": "application/json" },
+                body: JSON.stringify( {data: [reader.result]} )
+            } 
+        ); 
+        const json = await response.json();
+        const label = json['data'][0]['label'];
+        const probability = json['data'][0]['score'] * 100;
+        results.innerHTML = `<img src = "${reader.result}" width="500"> 
+                            <p> <strong>Result: ${label} (${score}%)</strong> </p>`; //results
     }
 
     function read() {
