@@ -12,7 +12,8 @@ title: Home
         body: JSON.stringify({data: [reader.result]})});
     const json = await response.json();
     const label = json['data'][0]['label'];
-    results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p><b>Result: ${label}</b></p>`; //results
+    results.innerHTML = 'API call testing complete'
+    //results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p><b>Result: ${label}</b></p>`; //results
     }
 
     function read() {
