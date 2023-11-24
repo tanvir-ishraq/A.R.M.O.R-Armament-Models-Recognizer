@@ -53,7 +53,7 @@ The armament types are following: </p>
         const label = json['data'][0]['label'];
         let probability = json['data'][0]['confidences'][0]['confidence'] * 100;
         probability = Math.ceil(probability);
-        results.innerHTML = `<p style="font-size:18px> 
+        results.innerHTML = `<p style="font-size:18px"> 
                               <strong> Result: ${label} (${probability}% pattern) </strong> 
                              </p> 
                              <img src = "${reader.result}" width="500">` ;  
