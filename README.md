@@ -60,3 +60,6 @@ I deployed the model to HuggingFace Spaces server space by packaging the model i
 
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Deployment implementation and other details can be found in `docs` folder.
+ <p align="center">
+  <img src = "\github_images/web_deploy_preview.png" width="780" > 
+</p> 
