@@ -1,10 +1,11 @@
 
-# Project A.R.M.O.R Problem Statement
-"A.R.M.O.R - <strong>Ar</strong>mament <strong>Mo</strong>dels <strong>R</strong>ecognizer for civilian security."
+# Project A.R.M.O.R 
+## Problem Statement
+"A.R.M.O.R - ***Ar***mament ***Mo***dels ***R***ecognizer for civilian security."
 <br>
 A comprehensive image classification model from data collection, dataset cleaning, model training, full deployment and API integration. <br/>
- <img src = "hf_deployment/ARMOR_gradio_app.png" width="830" > <br> 
-The model was developed as a security measure that can classify comprehensive 22 different types of most common military armaments posing threat for civilians on land and overall civilian security. <br/>
+
+The model was developed as a security measure that can classify comprehensive 22 different types of most common modern military armaments posing threat for civilians on land and overall civilian security. <br/>
 * I carried out All-encompassing research on the most typical armaments category.  <br/>
 * I researched the most produced and available armaments in modern times. <br/>
 * I researched the most used armaments in military activities and conflicts in modern times. <br/>
@@ -33,16 +34,16 @@ The armament types are following: <br/>
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
 
-Tank and artillery shock the opposition while staying robust and afar without taking damage. Unmanned drones are highly used because they can inflict damage without risking pilots, replacing combat planes, harmful intelligence gathering on civilians. Other vehicles are used to support actual infantry engagement. After damage has been dealt with, this infantry engagement carries out the final sweep and makes the final decisions. All of these pose a threat to civilians. This dataset covers mass amount of armaments of countries and conflicts worldwide such as Yemen, Syria, United States, Iraq, Iran, Ukraine, India, Germany, China, Russia, Turkey.   </br>
+**Scope Elaboration:** Tank and artillery shock the opposition while staying robust and afar without taking damage. Unmanned drones are highly used because they can inflict damage without risking pilots, replacing combat planes, harmful intelligence gathering on civilians. Other vehicles are used to support actual infantry engagement. After damage has been dealt with, this infantry engagement carries out the final sweep and makes the final decisions. All of these pose a threat to civilians. This dataset covers mass amount of armaments of countries and conflicts worldwide such as Yemen, Syria, United States, Iraq, Iran, Ukraine, India, Germany, China, Russia, Turkey.   </br>
 
-# Dataset Preparation
+## Dataset Preparation
 **Research:** Existing military datasets are not tailored towards civilian security focused at all. They also doesn't widely armaments and information regarding modern times and conflicts.  We aim to update them for our modern goals. I did research on which categories poses most threat to civilians being on land. Did deep research on most common armaments on each categories. researched most produced available armaments in modern times. researched most used in military operation and wars in modern times. researched most used armaments. <br/><br/>
 **Data Collection:** Downloaded from DuckDuckGo using term name. A grand total of ~5500 images finally consisted our dataset after deeply cleaning dataset. (with more data and categories to be added more later project version) <br/><br/>
 **DataLoader:** Used fastai DataBlock API to set up the DataLoader. Proper dataset split percentage was followed. Proper batch_size was set to utilize power of GPU. <br/>
 **Data Augmentation:** fastai provides default data augmentation which operates in GPU. <br/>
 Details can be found in `data augmentation` section in `notebooks/ARMOR_classfier_full_process.ipynb`
 
-# Training and Data Cleaning
+## Training and Data Cleaning
 **Training overview:** The powerful ResNet-152 model was chosen as starting point. I fine-tuned the ResNet-152 model for 20 epochs and achieved up to ~97% accuracy. During this 20 epochs period, I observed train loss and validation loss with attention to ensure overfit doesn't occur. <br/> 
  <p align="center">
   <img src = "\github_images/final_model_train_sample_preview.png"> 
@@ -54,11 +55,11 @@ Details can be found in `data augmentation` section in `notebooks/ARMOR_classfie
 </p> 
 
 
-# Model Deployment
+## Model Deployment
 I deployed the model to HuggingFace Spaces server space by packaging the model in my coded Gradio App. The implementation can be found in `hf_deployment` folder and [online here](https://huggingface.co/spaces/tanvir-ishraq/ARMOR-Armament-Models-Recognizer). <br/>
  <img src = "hf_deployment/ARMOR_gradio_app.png" width="830" >  
 
-# API integration with GitHub Pages
+## Live Website with API
 The deployed model API is integrated [here](https://tanvir-ishraq.github.io/A.R.M.O.R-Armament-Models-Recognizer/) in GitHub Pages Website. Deployment implementation and other details can be found in `docs` folder.
  <p align="center">
   <img src = "\github_images/web_deploy_preview.png" width="780" > 
