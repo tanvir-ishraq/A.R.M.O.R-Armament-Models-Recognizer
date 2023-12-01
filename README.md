@@ -34,12 +34,12 @@ The armament types are following: <br/>
 21. MQ-9 Reaper UCAV drone
 22. RQ-4 Global Hawk UCAV drone
 
-**Scope Elaboration:** This dataset covers mass amount of armaments of countries and conflicts worldwide such as Yemen, Syria, United States, Iraq, Iran, Ukraine, India, Germany, China, Russia, Turkey. Tank and artillery shock the opposition while staying robust and afar without taking damage. Unmanned drones are highly used because they can inflict damage without risking pilots, replacing combat planes, harmful intelligence gathering on civilians. Other vehicles are used to support actual infantry engagement. After damage has been dealt with, this infantry engagement carries out the final sweep and makes the final decisions. All of these pose a threat to civilians. </br>
+**Scope Elaboration:** This dataset covers mass amount of armaments of countries and conflicts worldwide such as Yemen, Syria, United States, Iraq, Iran, Ukraine, India, Germany, China, Russia, Turkey. *Tank* and *Artillery* shock the opposition while staying robust and afar without taking damage. Unmanned *drones* are highly used because they can inflict damage without risking pilots, replacing combat planes, harmful intelligence gathering on civilians. Other *vehicles* are used to support actual infantry engagement. After damage has been dealt with, this infantry engagement via *vehicles* carries out the final sweep and makes the final decisions. All of these pose a threat to civilians. </br>
 
 ## Dataset Preparation
 **Research:** Existing military datasets are not tailored towards civilian security focus at all. They also doesn't contain widely armaments and information regarding modern times and conflicts. I aimed to update them for our modern goals. I did research on which categories poses most threat to civilians being on land. I did thorough research on most common armaments on each categories. I researched most produced available armaments in modern times. I researched most used in military operation and wars in modern times. I researched most used armaments. <br/><br/>
 **Data Collection:** Computer vision data downloaded using DuckDuckGo API connection searching term names. A grand total of ~5500 images finally consisted our dataset after deeply cleaning dataset. (with more data and categories to be added more later project version) <br/><br/>
-**DataLoader:** Used fastai DataBlock API to set up the DataLoader. Proper dataset split percentage was followed. Proper batch_size was set to utilize power of GPU. <br/>
+**DataLoader:** Used fastai DataBlock API to set up the `DataLoader`. Proper dataset split percentage was followed. Proper `batch_size` was set to utilize power of GPU. <br/>
 **Data Augmentation:** fastai provides default data augmentation which operates in GPU. <br/>
 Details can be found in `data augmentation` section in `notebooks/ARMOR_classfier_full_process.ipynb`
 
