@@ -1,6 +1,6 @@
+<h1 align="center">Project A.R.M.O.R </h1>
 
-# Project A.R.M.O.R 
-## Problem Statement
+### Problem Statement
 "A.R.M.O.R - ***Ar***mament ***Mo***dels ***R***ecognizer for civilian security."
 <br>
 A comprehensive image classification model from data collection, dataset cleaning, model training, full deployment and API integration. <br/>
