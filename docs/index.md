@@ -4,7 +4,9 @@ title: Home
 ---
  
 <!-- Frontend prediction user interface. Data are handled by API-->
+<h3 style="text-align: center"> Model: </h3>
 <a id="forkme_banner" href="#">A.R.M.O.R Classifier</a>
+<h2 style="margin-top: 20px;"> Model: </h2>
 <p style="font-size:18px;">  Welcome! ✨ Please wait a few moments after image upload for prediction result. Thank you for your cordial patience.</p>
 
 <div style="display: flex; justify-content: center">
